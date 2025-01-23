@@ -1,0 +1,109 @@
+:root {
+      --colorT: #ffff;
+    --color0: #8ed081;
+    --color1: #b4d2ba;
+    --color2: #b57f50;
+    --color3: #4b543b;
+    --colorB: lime;
+}
+
+@font-face {
+    font-family: 'VIRUST';
+    src: url('../fonts/RioGrande/VIRUSTRegular.eot');
+    src: url('../fonts/RioGrande/VIRUSTRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RioGrande/VIRUSTRegular.woff2') format('woff2'),
+        url('../fonts/RioGrande/VIRUSTRegular.woff') format('woff'),
+        url('../fonts/RioGrande/VIRUSTRegular.ttf') format('truetype'),
+        url('../fonts/RioGrande/VIRUSTRegular.svg#VIRUSTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'VIRUST';
+    font-weight: normal;
+    font-style: normal;
+    color: var(--colorT);
+    
+}
+
+p{
+    padding: 1rem;
+    background: var(--color0);
+    cursor: zoom-in;
+    color: var(--colorT);
+    
+
+}
+
+.progres{
+    background-color: var(--colorB) ;
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    scale: 0 1;
+    animation: analitzador linear;
+    -o-animation-timeline: scroll();   /* para que se pueda ver en los diferentes navegadores el scroll*/
+    -moz-animation-timeline: scroll() ;
+    -webkit-animation-timeline: scroll() ;
+    animation-timeline: scroll();
+    z-index: 1000;
+    transform-origin: left;   /* para que la barra salga desde la dercha y vaya cargando*/
+}
+
+    @keyframes analitzador{
+        to {
+            scale: 1 1;
+        }
+    }
+
+@media screen and (max-width:480px) {
+    /* aqui va el disseny per smarphone*/
+
+    body{
+        background: var(--color1);
+    }
+
+    h1 {
+       font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:1279px) {
+    
+    /* aqui va el disseny per tablet*/
+    body{
+        background: var(--color2);
+    }
+
+    h1 {
+        font-size: 3rem;
+     }
+}
+
+@media screen and (min-width:1280px) {
+    
+    /* aqui va el disseny per ordinador*/
+    body{
+        background: var(--color3);
+    }
+
+    h1 {
+        font-size: 4rem;
+     }
+}
+
+p{
+    columns: 1;
+}
+
+
+

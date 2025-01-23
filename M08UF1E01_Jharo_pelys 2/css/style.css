@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+body{
+    background: #222;
+    margin-top: 70px;
+}
+h1{
+    font-size: 22px;
+    color: #fff;
+    margin: 60px 0 0 20px;
+}
+
+.fitxa{
+    height: 276px;
+    width: 175px;
+    margin: 20px 10px;
+    display: inline-block;
+
+
+}
+.fitxa:hover{
+    opacity: 50%;
+}
+.fitxa img{
+    border-radius: 5px;
+
+}
+
+.fitxa h2{
+    font-size: 14px;
+    line-height: 16px;
+    color: #ccc;
+}
+.fitxa h3{
+    font-size: 11px;
+    float: left;
+    width: 50%;
+    text-align: left;
+    color: #ccc;
+}
+.fitxa h4{
+    font-size: 11px;
+    float: left;
+    width: 50%;
+    text-align: right;
+    color: #ccc;
+}
+.vista {
+    -o-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+.nav{
+    background: black;
+    background-image: url(../img/quasinegre.png);
+    height: 50px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav img{
+    float: left;
+    margin: 5px 20px;
+}
+.nav .contingut{
+
+    float: left;
+}
+.nav .social{
+
+    float: right;
+}
+
+.nav li{
+    float: left;
+    margin: 5px;
+    list-style-type: none;
+    color: #fff;
+}
