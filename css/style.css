@@ -240,11 +240,11 @@ h1{
    }
 
    .p2 li{
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     font-size: 15px;
     display: block;
-    line-height: 150px;
+    line-height: 130px;
     box-shadow: inset 0 0 0 4px white;
     
    }
@@ -269,8 +269,8 @@ h1{
 }
   
 .p3 li{
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
   box-shadow: inset 0 0 0 3px white;
   margin: 15px;
 
