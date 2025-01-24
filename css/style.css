@@ -9,6 +9,8 @@ html, body{
     font-family: "Funnel Display", serif;
     font-weight: 900;
     font-style: normal;
+    overflow-x: hidden;
+  
 }
 
 
@@ -277,7 +279,7 @@ h1{
 .p3 ul{
   width: 130px;
   padding: 5px;
-  margin: 10px 85px;
+  margin: 0.625rem 6.313rem;
 
 }
   
