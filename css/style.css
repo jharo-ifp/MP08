@@ -240,19 +240,20 @@ h1{
    }
 
    .p2 li{
-    height: 130px;
-    width: 130px;
-    font-size: 15px;
+    height: 120px;
+    width: 120px;
+    font-size: 12px;
     display: block;
-    line-height: 130px;
-    box-shadow: inset 0 0 0 4px white;
-    
+    line-height: 120px;
+    box-shadow: inset 0 0 0 2px white;
+   
    }
 
    .p2 ul{
-    width: 380px;
+    width: 385px;
     margin: 0 auto;
-    padding: 25px;
+    padding-top: 30px;
+    padding-left: 75px;
 }
 
 h1{
@@ -278,7 +279,7 @@ h1{
 
 .p3 ul{
   width: 130px;
-  padding: 5px;
+  padding: 25px;
   margin: 0.625rem 6.313rem;
 
 }
