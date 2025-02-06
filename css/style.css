@@ -148,6 +148,7 @@ a:visited{
   margin-top: 80px;
   transform: scale(100%);
   transition: 1s;
+  
 }
 h1{
   font-family: "Funnel Display", serif;
@@ -203,7 +204,7 @@ h1{
       height: ;
  }
   .p1, .p3 {
-      background-color: red;
+      background-color:  #1150e4;
  }
   nav li{
       font-size: 15px;
@@ -215,7 +216,7 @@ h1{
       font-size: 12px;
       display: block;
       line-height: 120px;
-      box-shadow: inset 0 0 0 2px white;
+  
  }
   .p2 ul{
       width: 385px;
@@ -237,7 +238,6 @@ h1{
   .p3 li{
       height: 130px;
       width: 130px;
-      box-shadow: inset 0 0 0 3px white;
       margin: 15px;
       
  }
