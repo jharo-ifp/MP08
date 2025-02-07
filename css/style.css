@@ -19,7 +19,7 @@ nav img{
   padding-top: -50px;
 }
 nav {
-  font-size: 25px;
+  font-size: 15px;
   position: fixed;
   height: 50px;
   top: 0;
@@ -32,6 +32,7 @@ nav {
   padding-top: 10px;
   font-family: "Funnel Display", serif;
   font-style: normal;
+  
 }
 svg {
   position: absolute;
@@ -97,7 +98,7 @@ body{
 nav li {
   margin: 0 20px;
   display: inline-block;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .p2 li{
   height: 250px;

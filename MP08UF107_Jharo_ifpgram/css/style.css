@@ -200,3 +200,42 @@
         background-image: url(../img/images/ifpagram_mensajee.jpg);
         background-position: -5px -15px;
     }
+
+
+
+    input{
+        visibility: hidden;
+      }
+      
+      #agradador {
+        margin: 2rem 0 0 0;
+        width: 50px;
+        height: 50px;
+        background: transparent;
+        position: relative;
+        border-radius: 0.5rem;
+        float: left;
+        bottom: 18px;
+      }
+      
+      #agradador label{
+        width: 50px;
+        height: 50px;
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0; 
+        transition: all .5s ease;
+        cursor: pointer;
+        opacity: 0;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+        background-size: 1rem 1rem;
+        background-repeat: no-repeat;
+
+      }
+      
+      #agradador input[type=checkbox]:checked+label {
+        opacity: 1;
+      }
+
+
