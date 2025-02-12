@@ -32,8 +32,14 @@ nav {
   padding-top: 10px;
   font-family: "Funnel Display", serif;
   font-style: normal;
-  
 }
+
+li:hover{
+  color: rgb(47, 102, 230);
+  opacity: 90%;
+
+}
+
 svg {
   position: absolute;
   font-family: "Funnel Display", serif;
