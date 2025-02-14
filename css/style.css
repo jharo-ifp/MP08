@@ -36,9 +36,10 @@ nav {
 
 li:hover{
   color: rgb(47, 102, 230);
-  opacity: 90%;
 
 }
+
+
 
 svg {
   position: absolute;
