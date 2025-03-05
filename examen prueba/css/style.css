@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+html, body{
+  height: 100%;
+  font-family: "Funnel Display", serif;
+  font-weight: 900;
+  font-style: normal;
+  overflow-x: hidden;
+  touch-action: pan-x pan-y;
+}
+nav img{
+  float: left;
+  margin: 5px 20px;
+  width: 30px;
+  height: 30px;
+  padding-top: -50px;
+}
+nav {
+  font-size: 15px;
+  position: fixed;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  z-index: 5000;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Funnel Display", serif;
+  font-style: normal;
+}
+
+li:hover{
+  color: rgb(47, 102, 230);
+
+}
+
+
+
+svg {
+  position: absolute;
+  font-family: "Funnel Display", serif;
+  letter-spacing: 0.15em;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  font-size: 170px;
+}
+svg text {
+  fill: #ffffff;
+  stroke: #ffffff;
+  fill-opacity: 1;
+  stroke-width: 0;
+  stroke-dasharray: 100% 0;
+  animation: stroke-offset 4s ease-out infinite;
+}
+@keyframes stroke-offset {
+  0% {
+      fill-opacity: 0;
+      stroke-width: 0;
+      stroke-dasharray: 0% 100%;
+ }
+  25% {
+      stroke-width: 3px;
+ }
+  50% {
+      fill-opacity: 0;
+ }
+  75% {
+      stroke-width: 3px;
+ }
+  100% {
+      stroke-width: 0;
+ }
+}
+body{
+  background: rgb(199, 244, 248);
+}
+.pagina {
+  position: relative;
+  height: 100%;
+}
+.p1{
+  background: #DDD0C8;
+}
+
+.p2{
+  background:#323232;
+  background-image: url(../img/Los-15-trabajos-mas-demandados-en-Espana2.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p3{
+  background: #DDD0C8;
+}
+.p2 ul{
+  width: 780px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+nav li {
+  margin: 0 20px;
+  display: inline-block;
+  padding-top: 10px;
+}
+.p2 li{
+  height: 250px;
+  width: 250px;
+  background: rgb(47, 102, 230);
+  float: left;
+  margin: 5px;
+  text-align: center;
+  display: block;
+  line-height: 250px;
+  color: white;
+  font-size: 30px;
+  box-shadow: inset 0 0 0 ;
+  transform: scale(100%);
+  transition: 1s;
+}
+.p2 li:hover{
+  opacity: 50%;
+  transform: scale(95%);
+}
+a:link{
+  color: white;
+}
+a:hover{
+}
+a:visited{
+  color: white;
+}
+.p3 .filete{
+  height: 10px;
+  width: 150px;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.p3 li{
+  height: 200px;
+  width: 200px;
+  background-color: #323232;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  line-height: 200px;
+  color: white;
+  font-size: 40px;
+  box-shadow: inset 0 0 0;
+  margin-top: 80px;
+  transform: scale(100%);
+  transition: 1s;
+  
+}
+h1{
+  font-family: "Funnel Display", serif;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+  
+}
+.p3 ul{
+  width: 660px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.insta{
+  background-image: url(../img/insta.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  border-radius: 20%;
+}
+.wasap{
+  background-image: url(../img/wasap.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+  border-radius: 20%;
+}
+.correo{
+  background-image: url(../img/gmail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  border-radius: 20%;
+}
+.p3 li:hover{
+  opacity: 50%;
+  transform: scale(95%);
+}
+@media screen and (min-width: 480px) {
+  .nav{
+      height: 50px;
+ }
+  .p1, .p3 {
+      background-color: #1150e4;
+ }
+  .p2 li{
+      display: inline;
+ }
+}
+@media screen and (max-width: 480px) {
+  .nav{
+      height: ;
+ }
+  .p1, .p3 {
+      background-color:  #1150e4;
+ }
+  nav li{
+      font-size: 15px;
+      margin: 0 10px;
+ }
+  .p2 li{
+      height: 120px;
+      width: 120px;
+      font-size: 12px;
+      display: block;
+      line-height: 120px;
+  
+ }
+  .p2 ul{
+      width: 385px;
+      margin: 0 auto;
+      padding-top: 30px;
+      padding-left: 75px;
+ }
+  h1{
+      font-size: 70px;
+      padding-top: 60px;
+ }
+  .p3 .filete{
+      height: 5px;
+      width: 150px;
+      background: black;
+      margin: 0 auto;
+      margin-top: 10px;
+ }
+  .p3 li{
+      height: 130px;
+      width: 130px;
+      margin: 15px;
+      
+ }
+  .p3 ul{
+      width: 130px;
+      padding: 25px;
+      margin: 0.625rem 6.313rem;
+ }
+}
+
+
